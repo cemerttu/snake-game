@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gc" class="game-canvas" width="202" height="120"></canvas>
+    </div>
+    <div class="keys">
+        <a class="up-arr" onclick="snake.action('up')">
+            <i class="chevron up"></i>
+        </a>
+        <br>
+        <a class="left arr" onclick="snake.action('left')">
+            <i class="chevron left"></i>
+        </a>
+        <a class="down arr" onclick="snake.action('down')"></a>
+        <a class="right arr" onclick="snake.action('right')"><i class="chevron right"></i></a>
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
