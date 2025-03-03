@@ -161,7 +161,7 @@ var snake = function (){
                     })());
                 }
 
-                ctx.fillStyle = 'red';
+                ctx.fillStyle = 'green';
                 ctx.fillRect(fruit.x * gridSize+1, fruit.y * gridSize+1, gridSize-2, gridSize-2);
 
                 if(stopped){
