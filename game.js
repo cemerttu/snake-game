@@ -8,6 +8,9 @@ var snake = function (){
     var gridSize = 400/titleCount;
 
 
+
+
+    
     const INITIAL_PLAYER = { x : Math.floor (titleCount / 2), y: Math.floor (titleCount / 2)};
     var velocity = {x:0, y:0};
     var player = { x:INITIAL_PLAYER.x, y:
